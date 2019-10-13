@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>江西省永丰县人民政府网</title>
+	</head>
+		<style type="text/css">
+			div{
+				margin:0 auto;
+				padding:0;
+			}
+			a{
+			    text-decoration: none;
+			    cursor: pointer;
+			}
+			ul{
+				list-style-type: none;
+				margin:0px;
+			}
+			.div1{
+				width:1000px;
+				height:15px;
+				margin:0 auto;
+				position: relative;
+				font-size:12px;
+			}
+			.div2{
+				width:400px;
+				height: 15px;
+				position: absolute;
+				left: 100px;
+
+			}
+			.div2 a{
+				text-decoration: none;
+			}
+			.div2 a:hover{
+				text-decoration: none;
+				color:red;
+			}
+			.div3{
+				width:200px;
+				height: 15px;
+				position:absolute;
+				right: 100px;
+			}
+			header{
+				background-image: url(src/main_bg.png);
+				width:1000px;
+				height: 200px;
+				position: relative;
+				margin: 0 auto;
+				margin	
+			}
+			.menu{
+				width:1000px;
+				height: 30px;
+				position: relative;
+				margin:0 auto;
+			}
+			.menu ul{
+				list-style-type: none;
+			}
+			.menu ul li{
+				position: relative;
+				float:left;
+				margin-right: 30px;
+				color: #36C;
+				font-weight: bolder;
+				font-size:16px;
+			}
+			.menu ul li a:hover{
+				background-color: red;
+			}
+			.inp {
+			    float: left;
+			    width: 120px;
+			    height: 28px;
+			    line-height: 28px;
+			    border: 1px solid #ccc;
+			    background-color: white;
+			    color: #999999;
+			    text-indent: 2px;
+			}
+
+			.btn1 {
+			    float: left;
+			    width: 50px;
+			    height: 30px;
+			    text-align: center;
+			    color: white;
+			    background-color: #0068b7;
+			    cursor: pointer;
+			    border: 0px;
+			}
+			.father{
+				width:1000px;
+				margin:0 auto;
+				overflow: hidden;
+				border-top:#c0110e 3px solid;
+				padding-top: 10px;
+			}
+			.zw_mail{
+				width:1000px;
+				height: 40px;
+				margin:0 auto;
+			}
+			.zw_mail .mail{
+				float: left;
+				padding:0 0 0 6px;
+				color: #555555;
+			}
+			.zw_mail .mail img{
+				float: left;
+				clear: both;
+			}
+			.zw_mail .mail span{
+				display: block;
+				float: left;
+				margin-left: 10px;
+			}
+			.zw_mail .mail .inp{
+				width:90px;
+				height: 20px;
+				display: block;
+				float: left;
+				line-height: 20px;
+				border:1px solid #ccc;
+				color: #555555;
+				text-indent: 2px;
+			}
+			.zw_mail .mail .btn{
+				width:45px;
+				height: 22px;
+				line-height: 18px;
+				text-align: center;
+				color:#ffffff;
+				background-color: #0068b7;
+				cursor: pointer;
+				border: 0px;
+			}
+			.zw_mail .date{
+				float: right;
+				line-height: 46px;
+				margin-top:-10px;
+			}
+			.zw_mail .date span{
+				float:left;
+				font-size: 8px;
+			}
+			.home_news{
+				width:1000px;
+				margin:0 auto 0 auto;
+				overflow: hidden;
+			}
+			.partDivc4{
+				height:275px;
+				position:relative;
+				overflow: hidden;
+			}
+			.partNamec4{
+				float: left;
+				position: relative;
+				width:110px;
+				overflow: hidden;
+				margin-top:8px;
+			}
+			.partNamec4 a.on{
+				color:red;
+				background-color: #d7d7d7;
+			}
+			.partNamec4 a{
+				margin:7px auto;
+				border:#e4e4e4 1px solid;
+				width:100px;
+				padding: auto;
+				text-align: center;
+				height: 44px;
+				display: block;
+				background-color: #f1f1f1;
+
+			}
+			.partNamec4 a:visited{
+				text-decoration: none;
+				cursor: pointer;
+				color: blue;
+			}
+			.partNamec4 a:link{
+				text-decoration: none;
+				cursor: pointer;
+			}
+			.partNamec4 .hh:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partNamec4 .hh1:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partNamec4 .hh2:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partNamec4 .hh3:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partNamec4 .hh4:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+
+			.partNamec4 .hh span{
+				background: url(src/nsw.png) no-repeat center left;
+				padding-left: 20px;
+				line-height: 44px;
+				height: 44px;
+				font-weight: bold;
+			}
+			.partNamec4 .hh1 span{
+				background: url(src/gggs.png) no-repeat center left;
+				padding-left: 22px;
+				line-height: 44px;
+				height: 44px;
+				font-weight: bold; 
+			}
+			.partNamec4 .hh2 span{
+				background: url(src/nsw1.png) no-repeat center left;
+				padding-left: 22px;
+				line-height: 44px;
+				height: 44px;
+				font-weight: bold;
+			}
+			.partNamec4 .hh3 span{
+				background: url(src/nsw3.png) no-repeat center left;
+				padding-left: 25px;
+				line-height: 44px;
+				height: 44px;
+				font-weight: bold;
+			}
+			.partNamec4 .hh4 span{
+				background: url(src/nsw4.png) no-repeat center left;
+				padding-left: 25px;
+				line-height: 44px;
+				height: 44px;
+				font-weight: bold;
+			}
+			ul{
+				list-style-type: none;
+			}
+			li{
+				margin:0 auto;
+				padding:0;
+			}
+			.focusBox{
+				position: relative;
+				width: 478px;
+				height:275px;
+				overflow: hidden;
+				float: left;
+				margin-bottom: 5px;
+				margin-left: 12px;
+				margin-top:-30px;
+
+			}
+			.focusBox .pic{
+				position: relative;
+				height: 275px;
+				float: left;
+			}
+			.focusBox .pic dd{
+				position: absolute;
+				left: 0px;
+				top:0px;
+				display: none;
+			}
+			.partDivc{
+				width:388 px;
+				height: 273px;
+				border:#e2e2e2 1px solid;
+				position: relative;
+				overflow: hidden;
+			}
+			.partNamec{
+				width:388px;
+				height: 36px;
+				position: relative;
+				border-bottom: 1px solid #e2e2e2;
+			}
+			.partNamec a{
+				float: left;
+				color: #444444;
+				display: inline-block;
+				font-size: 14px;
+				width:96px;
+				height: 35px;
+				line-height: 35px;
+				text-align: center;
+			}
+			.partNamec a.on{
+				background: white;
+				line-height: 34px;
+
+			}
+			.partNamec a:visited{
+				text-decoration: none;
+				cursor: pointer;
+				color:blue;
+				font-weight: bold;
+			}
+			.partNamec a:link{
+				text-decoration: none;
+				cursor: pointer;
+				color:blue;
+				font-weight: bold;
+			}
+			.partNamec a:hover{
+				text-decoration: none;
+				cursor: pointer;
+				color: red;
+				font-weight: bold;
+			}
+			.partDivc ul{
+				width:100%;
+				position: absolute;
+				padding-top:5px;
+			}
+			.partDivc ul li{
+				width:95%;
+				border-bottom: #d2d2d2 1px dotted;
+				float: left;
+				height: 28px;
+				line-height: 28px;
+				font-size:12px;
+				margin-left: -20px;
+				overflow: hidden;
+				background:url(src/listico2.png) no-repeat left center;
+				text-indent: 10px;
+			}
+			.partDivc ul li span{
+				float: right;
+				color:#888888;
+				font-size:12px;
+			}
+			.partDivc ul li a:hover{
+				text-decoration: none;
+				color:red;
+				cursor: pointer;
+			}
+			.partDivc ul li a:visited{
+				text-decoration: none;
+				cusor:pointer;
+				color: #333333;
+			}
+			.partDivc ul li a:link{
+				text-decoration: none;
+				color: #333333;
+			}
+			.partDivc .hh:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partDivc .hh1:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partDivc .hh2:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partDivc .hh3:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partDivc .hh4:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partDivc .hh5:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.partDivc .hh6:hover{
+				color: red;
+				background-color: #d7d7d7;
+			}
+			.rollphotos{
+				width:1000px;
+				height: 62px;
+				margin:10 auto 0 auto;
+				overflow: hidden;
+				border: #e2e2e2 1px solid;
+				position: relative;
+				zoom:1;
+			}
+			.rollphotos .af{
+				position:absolute;
+				left: 0px;
+				top:0px;
+
+			}
+			.af a:hover{
+				cursor: pointer;
+			}
+
+			.af a img{
+				border:0px;
+				vertical-align: sub;
+			}
+			.blk_29{
+				padding:10px 0px 10px 10px;
+				overflow: hidden;
+				border-bottom: #a1d2fd 1px solid;
+				zoom:1px;
+			}
+			.blk_29 .LeftBottom{
+				background: url(src/lr.png) no-repeat left;
+				left: 40px;
+				top:-2px;
+				float:left;
+				width:19px;
+				height: 65px;
+				cursor: pointer;
+				position: absolute;
+
+			}
+			.blk_29 .RightBottom{
+				right: 5px;
+				width: 19px;
+				height: 65px;
+				background: url(src/lr.png) no-repeat right;
+				top:-2px;
+				float: right;
+				position:absolute;
+				cursor: pointer;
+
+			}
+			.blk_29 .Cont{
+				margin-left: 50px;
+				overflow: hidden;
+				width:820px;
+				float:left;
+			}
+			.blk_29 .box{
+				float:left;
+				width: 240px;
+				height: 50px;
+			}
+			.blk_29 .box .ta{
+				background: url(src/ztzl1.png) no-repeat;
+				background-position: left center;
+				padding-left: 40px;
+			}
+			.blk_29 .box a{
+				color:#333333;
+				width:160px;
+				font-size: 12px;
+				display: block;
+				overflow: hidden;
+				float:left;
+				line-height: 50px;
+				height: 50px;
+			}
+			.blk_29 .box a:link{
+				text-decoration: none;
+				cusor:pointer;
+			}
+			.blk_29 .box a:hover{
+				color:blue;
+			}
+			.blk_29 .box a:visited{
+				text-decoration: none;
+				cusor:pointer;
+
+			}
+			.mid{
+				width: 1000px;
+				height: 80px;
+				margin:0 auto;
+				margin-top:10px;
+			}
+			.tabsList{
+				width: 1000px;
+				height: 360px;
+				margin:0 auto;
+		       overflow: hidden;
+		       zoom:1;
+				position: relative;
+				margin-top:10px;
+			}
+			.f1{
+				float: left;
+			}
+			.tabsList .tit{
+				float: left;
+				top:-30px;
+				overflow: hidden;
+				position: relative;
+				left: -40px;
+			}
+			.tabsList h4{
+				float: left;
+				width: 40px;
+				height: 120px;
+				cursor: pointer;
+				background: url(src/navtab1.png) no-repeat top right;
+			}
+			.tabsList .tabBody{
+				float: left;
+				display: block;
+				width: 950px;
+				position: absolute;
+				margin-top:10px;
+				top:0px;
+				left: 50px;
+			}
+			.tabsList .xxgk_left{
+				float: left;
+				width: 190px;
+				height: 353px;
+				padding:1px;
+				margin-left: -40px;
+				margin-top:-20px;
+			}
+			.tabsList .xxgk_left .oa{
+				overflow: hidden;
+				margin-bottom:2px;
+			}
+			.tabsList .xxgk_left .oa li{
+				width: 190px;
+				height: 44px;
+				margin-bottom: 5px;
+			}
+			.tabsList .xxgk_left .xxg{
+				overflow: hidden;
+				height: 256px;
+
+			}
+			.tabsList .xxgk_left .xxg li{
+				line-height: 38px;
+				height: 38px;
+				width: 100%;
+				margin-bottom: 7.5px;
+				background-color: #efefef;
+			}
+			.tabsList .xxgk_left .xxg li a{
+				line-height: 38px;
+				height: 38px;
+				text-align: left;
+				font-size: 12px;
+				margin-left: 0px;
+				text-decoration: none;
+			}
+			.tabsList .xxgk_left .xxg li a:hover{
+				color: red;
+			}
+			.tasList .xxgk_left .xxg li span{
+				margin-right: 10px;
+			}
+			.tabList .tabs_center{
+				float: left;
+				width: 450px;
+			}
+			.tab_article{
+				float: left;
+				margin-left: 15px;
+				overflow:hidden;
+				position: relative;
+				width: 450px;
+			}
+			.tab_article .column{
+				float: left;
+				height: 31px;
+				position: relative;
+				width:450px;
+				border:1px solid #DDDDDD;
+			}
+			.tab_article .ls{
+				width: 100%;
+				float: left;
+				padding-top:8px;
+
+			}
+			.tab_article .ls li{
+				width: 100%;
+				float: left;
+				height: 26px;
+				line-height: 26px;
+				overflow: hidden;
+				margin-left: -30px;
+				background: url(src/listico1.png)no-repeat 2px center;
+				text-indent: 12px;
+				color:black;
+			}
+			.tab_article .ls li span{
+				float: right;
+				color:#888888;
+				font-size: 8px;
+				padding-right: 20px;
+			}
+			.tab_article .ls li a{
+				text-decoration: none;
+				color:black;
+				font-size:10px;
+			}
+			.tab_article .ls li a:hover{
+				color:#99F;
+			}
+			.tab_article .column a{
+				float: left;
+				display: inline-block;
+				font-size: 14px;
+				width: 111px;
+				height: 31px;
+				color:black;
+				line-height: 31px;
+				text-align: center;
+				border-right: 1px solid #DDDDDD
+			}
+			.tab_article .column a:hover{
+				background: #ffffff;
+				border-top: 2px solid #D32727;
+				font-weight: bold;
+				height: 30px;
+				line-height: 29px;
+				color:#c0110e;
+			}
+			.tabsList .xxgk_right{
+				float: right;
+				position: absolute;
+				right: 0px;
+				width: 280px;
+			}
+			.tabsList .xxgk_right .ksdh{
+				overflow: hidden;
+				width:278px;
+				border:1px solid #DDDDDD;
+				padding-bottom: 6px;
+			}
+			.tabsList .xxgk_right .title{
+				float:left;
+				width: 280px;
+				height: 33px;
+				line-height: 33px;
+				background: url(src/tab11_03.png)repeat-x;
+			}
+			.tabsList .xxgk_right .title span{
+				float: left;
+				width: 110px;
+				display: block;
+				text-align: center;
+				font-size: 14px;
+				background:white;
+				border-top:2px solid #D32727;
+				border-right: 1px solid #DDDDDD;
+				font-weight: bold;height: 35px;
+				line-height: 35px;
+			}
+			.tabsList .xxgk_right .title span a{
+				color:green;
+			}
+			.tabsList .xxgk_right .title span a:hover{
+				color:red;
+			}
+			.tabsList .xxgk_right .dhh{
+				width: 96%;
+				overflow: hidden;
+				padding-top:10px;
+			}
+			.tabsList .xxgk_right .dhh li{
+				margin:0 10px;
+				width:130px;
+				margin-left: -30px;
+				float:left;
+
+			}
+			.tabsList .xxgk_right .dhh a{
+				line-height: 30px;
+				height: 30px;
+				font-size: 14px;
+				display: block;
+				float: left; 
+				background: url(src/ha.png) no-repeat left center;
+				padding-left: 12px;
+			}	
+			.tabsList .xxgk_right  .dhh a:hover{
+				color:red;
+			}
+			.tabsList .xxgk_right .ksdh1{
+				overflow: hidden;
+				width: 278px;
+				height: 130px;
+				margin-top:10px;
+				border:1px solid #DDDDDD;
+				padding-bottom: 7px;
+			}
+			.footer{
+				width: 1000px;
+				height: 120px;
+				margin:10px auto;
+				padding-top:15px;
+				line-height: 24px;
+				text-align: center;
+				border-top: #0068b7 3px solid;
+			}
+			.footer ul{
+				width: 1000px;
+				margin:0 auto;
+				position: relative;
+			}
+			.footer ul li{
+				float: left;
+				font-size: 10px;
+			}
+			.footer .links{
+				width: 100%;
+				margin:0 auto;
+				height: 28px;
+				color:#0068b7;
+				padding-bottom: 5px;
+			}
+			.footer .links a{
+				text-decoration: none;
+				padding: 0 9px;
+				color:#0068b7;
+			}
+			.footer .links a:hover{
+				cusor:pointer;
+				color:red;
+			}
+			.footer .jiucuo{
+				z-index: 8px;
+				top:30px;
+				left: 30px;
+				position:absolute;
+			}
+			.footer .bszs{
+				z-index: 8px;
+				top:30px;
+				right: 30px;
+				position: absolute;
+			}
+		</style>
+	<body>
+		<div class="div1">
+			<div class="div2">
+				欢迎光临欧公<a href="#" target="_blank">(欧阳修)</a>故里-永丰县人民政府门户网站!
+			</div>
+			<div class="div3">
+				<a href="#" target="_blank">繁体</a>
+				<span>|</span>
+				<a href="#" target="_blank">无障碍</a>
+				<span>|</span>
+				<a href="#" target="_blank">RSS订阅</a>
+				<span>|</span>
+				<a href="#" target="_blank">手机版</a>
+
+			</div>
+		</div>
+		<header>
+			<img src="src/头部图片.jpg">
+		</header>
+		<div class="menu">
+			<ul>
+				<li>
+					<a href="#" target="_blank"><img src="src/主菜单.jpg">首页</a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><img src="src/魅力.jpg">魅力永丰</a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><img src="src/资讯.jpg">政务资讯</a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><img src="src/公开.png">信息公开</a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><img src="src/网上.jpg">网上办事</a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><img src="src/互动.jpg">公众互动</a>
+				</li>
+			</ul>
+				<input type="text" name="title" placeholder="关键字" class="inp">
+				<input type="submit" value="搜索" class="btn1">
+		</div>
+		<div class="father">
+			<div class="zw_mail">
+				
+				<form method="post" name="ch_mail" target="_black">
+					<div class="mail">
+						<img src="src/政务邮箱.png">
+						<span>用户名</span>
+						<input type="text" class="inp">
+						<span>:@jian.gov.cn&nbsp;</span>
+						<span>密码: </span>
+						<input name="password" type="password" class="inp">
+						<input type="submit" value="登入" class="btn" name="button_login">
+					</div>
+				</form>
+				<div class="date">
+					<span>今天是: </span>
+					<span id="localtime">
+					</span>
+					<script type="text/javascript">
+
+		            function showLocale(objD)
+		            {
+		                var str,colorhead,colorfoot;
+		                var yy = objD.getYear();
+		                if(yy<1900) yy = yy+1900;
+		                var MM = objD.getMonth()+1;
+		                if(MM<10) MM = '0' + MM;
+		                var dd = objD.getDate();
+		                if(dd<10) dd = '0' + dd;    
+		                var ww = objD.getDay();
+		                if  ( ww==0 )  colorhead="<font color=\"#333333\">";
+		                if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#333333\">";
+		                if  ( ww==6 )  colorhead="<font color=\"#333333\">";
+		                if  (ww==0)  ww="星期日";
+		                if  (ww==1)  ww="星期一";
+		                if  (ww==2)  ww="星期二";
+		                if  (ww==3)  ww="星期三";
+		                if  (ww==4)  ww="星期四";
+		                if  (ww==5)  ww="星期五";
+		                if  (ww==6)  ww="星期六";
+		                colorfoot="</font>"
+		                str = colorhead + yy + "年" + MM + "月" + dd + "日" + " "  + ww + colorfoot;
+		                return(str);
+		            }
+		            function tick()
+		            {
+		                var today;
+		                today = new Date();
+		                document.getElementById("localtime").innerHTML = showLocale(today);
+		                window.setTimeout("tick()", 10);
+		            }
+		            tick();
+
+					</script>
+					<iframe allowtransparency="true" frameborder="0" width="180" height="36" style="margin:3px 0 0 30px; float:left;" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&amp;z=2&amp;t=0&amp;v=0&amp;d=3&amp;bd=0&amp;k=000000&amp;f=&amp;q=1&amp;e=1&amp;a=0&amp;c=60627&amp;w=180&amp;h=36&amp;align=left">
+					</iframe>
+				</div>
+			</div>
+			<div class="home_news">
+			<!--新闻切换-->
+				<div id="partDiv4" class="partDivc4" style="float: left;width:600px;">
+					<div id="partName4" class="partNamec4">
+						<a href="#" class="hh" style="margin-top: 0;" target="_blank">
+							<span>图片新闻</span>
+						</a>
+						<a href="#" class="hh1" target="_blank">
+							<span>公告公示</span>
+						</a>
+						<a href="#" class="hh2" target="_blank">
+							<span>领导之窗</span>
+						</a>
+						<a href="#" class="hh3" target="_blank">
+							<span>今日永丰</span>
+						</a>
+						<a href="#" class="hh4" target="_blank">
+							<span>微博广场</span>
+						</a>
+					</div>
+					<ul>
+						<li class="focusBox" style="width:478px;">
+							<dl class="pic" style="position: relative; width:478px;height: 275px;">
+								<dd style="position: absolute;width:478px;left: 0px;top:0px;display:block;">
+									<a href="#" target="_blank" title="全县公共文明指数测评迎检促进会召开"><img src="src/1512610747168614.jpg"></a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				</div><!--右边新闻-->
+			<div id="partDiv5" class="partDivc" style="float: right;">
+				<div id="partName5" class="partNamec">
+					<a href="#" target="_blank">永丰要闻</a>
+					<a href="#" target="_blank">关注故里</a>
+					<a href="#" target="_blank">部门动态</a>
+					<a href="#" target="_blank">视频新闻</a>
+				</div>
+				<ul>
+					<li>
+						<span>2017-12-16</span>
+						<a href="#" target="_blank" title="我县召开农业产业招商推介会" class="hh">我县召开农业产业招商推介会</a>
+					</li>
+					<li>
+						<span>2017-12-16</span>
+						<a href="#" target="_blank" title="钟义山主持召开县委常委会，传达习近平总书记重要批示精神，锲而不舍推动作风建设取得新成效" class="hh1">钟义山主持召开县委常委会，传达习近平总书...</a>
+					</li>
+					<li>
+						<span>2017-12-16</span>
+						<a href="#" target="_blank" title="我县考察团赴赣州市学习考察蔬菜产业发展" class="hh2">我县考察团赴赣州市学习考察蔬菜产业发展</a>
+					</li>
+					<li>
+						<span>2017-12-14</span>
+						<a href="#" target="_blank" title="
+						我县农业产业走上发展快车道" class="hh3">我县农业产业走上发展快车道</a>
+					</li>
+					<li>
+						<span>2017-12-12</span>
+						<a href="#" target="_blank" title="全市食品安全突发事件（IV级）应急演练在我县召开" class="hh4">全市食品安全突发事件（IV级）应急演练在我...</a>
+					</li>
+					<li>
+						<span>2017-12-11</span>
+						<a href="#" target="_blank" title="中央国家机关及有关单位在我省挂职干部到我县调研" class="hh5">中央国家机关及有关单位在我省挂职干部到我...</a>
+					</li>
+					<li>
+						<span>2017-12-07</span>
+						<a href="#" target="_blank" title="全县公共文明指数测评迎检促进会召开" class="hh6">全县公共文明指数测评迎检促进会召开</a>
+					</li>
+				</ul>
+			</div>
+			</div>
+
+		</div>
+		<!--专题专栏 start-->
+		<div class="rollphotos">
+			<div class="af">
+				<a href="#" target="_blank"><img src="src/ss_03.png"></a>
+			</div>
+			<div class="blk_29">
+				<div class="LeftBottom" id="LeftArr"></div>
+				<div class="Cont" id="ISL_Cont_1" style="width: 908px;overflow: hidden;">
+					<div style="overflow: hidden;zoom:1;width: 32766px;">
+							<div class="box">
+								<a class="ta" href="#" target="_blank">政务服务大厅</a>
+							</div>
+							<div class="box">
+								<a class="ta" href="#" target="_blank">作风提升年活动</a>
+							</div>
+							<div class="box">
+								<a class="ta" href="#" target="_blank">讲文明 树新风公益广告</a>
+							</div>
+							<div class="box">
+								<a class="ta" href="#" target="_blank">县任命医院建设工程ppp项目</a>
+							</div>
+					</div>
+				</div>
+				<div class="RightBottom" id="RightArr"></div>
+			</div>
+		</div>
+		<div class="mid">
+			<a href="#" target="_blank"><img src="src/城乡图.png"></a>
+		</div>
+		<div class="tabsList">
+			<ul class="f1">
+				<li class="tit">
+					<h4></h4>
+				</li>
+				<li style="position: absolute;left: 0px;top:100px;"><h4 style="background: url(src/navtab1.png)left"></h4></li>
+				<li style="position: absolute;left: 0px;top:230px;"><h4 style="background: url(src/navtab1.png)left bottom"></h4></li>
+			</ul>
+			<div class="tabBody">
+				<div class="xxgk_left">
+					<ul class="oa">
+						<li>
+							<a href="#" target="_blank">
+								<img src="src/ll_03.png">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="src/ll_06.png">
+							</a>
+						</li>
+					</ul>
+					<ul class="xxg">
+						<li>
+							<a href="#" target="_blank">
+								<span>
+									<img src="src/xgk1.png">
+								</span>
+								政府信息公开指南
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<span>
+									<img src="src/xgk2.png">
+								</span>
+								政府信息公开目录
+							</a>
+						</li>
+							
+						<li>
+							<a href="#" target="_blank">
+								<span>
+									<img src="src/xgk5.png">
+								</span>
+								政府信息公开条例
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<span>
+									<img src="src/xgk6.png">
+								</span>
+								信息公开意见信箱
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<span>
+									<img src="src/xgk3.png">
+								</span>
+								政府信息公开年度报告
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<span>
+									<img src="src/xgk4.png">
+								</span>
+								政府信息公开制度规定
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tabs_center">
+					<div class="tab_article" style="height: 183px;">
+						<div class="column">
+							<a href="#" target="_blank">法规文件</a>
+							<a href="#" target="_blank">规划计划</a>
+							<a href="#" target="_blank">统计信息</a>
+							<a href="#" target="_blank">政策解读</a>
+						</div>
+						<ul class="ls">
+							<li>
+								<span>2017-12-28</span>
+								<a href="#" target="_blank">我县展开《反恐怖主义法》颁布两周年普法宣传活动...</a>
+							</li>
+							<li>
+								<span>2017-12-20</span>
+								<a href="#" target="_blank">永丰县人民政府关于公布2017年县政府(含县政府办.....</a>
+							</li>
+							<li>
+								<span>2017-12-08</span>
+								<a href="#" target="_blank">户口登记,一个都不能少...</a>
+							</li>
+							<li>
+								<span>2017-11-24</span>
+								<a href="#" target="_blank">增强基本养老保险制度可持续-财政教育有关负责人详解...</a>
+							</li>
+							<li>
+								<span>2017-11-10</span>
+								<a href="#" target="_blank">永丰县人民政府关于加强财政预算资金,预算单位...</a>
+							</li>
+						</ul>
+					</div>
+					<div class="tab_article">
+						<div class="column">
+							<a href="#" target="_blank">人事信息</a>
+							<a href="#" target="_blank">财政信息</a>
+							<a href="#" target="_blank">采购招标</a>
+							<a href="#" target="_blank">重大招标</a>
+						</div>
+						<ul class="ls">
+							<li>
+								<span>2017-12-25</span>
+								<a href="#" target="_blank">2017永丰县部分县直事业单位公开选调工作人员面试考试考生成绩...</a>
+							</li>
+							<li>
+								<span>2017-12-16</span>
+								<a href="#" target="_blank">关于2017吉安市永丰县事业单位公开招聘工作人员资格复审工...</a>
+							</li>
+							<li>
+								<span>2017-12-13</span>
+								<a href="#" target="_blank">2017年永丰县部分县直事业单位公开选调工作人员笔试成绩及入...</a>
+							</li>
+							<li>
+								<span>2017-12-01</span>
+								<a href="#" target="_blank">关于取消2017年永丰县部分县直事业单位公开选调考试未达到开...</a>
+							</li>
+							<li>
+								<span>2017-12-01</span>
+								<a href="#" target="_blank">永丰县公开选调乡镇民政所工作人员拟选调工作人员公示...</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="xxgk_right">
+					<div class="ksdh">
+						<div class="title">
+							<span>
+								<a href="#" target="_blank">快速导航</a>
+							</span>
+						</div>
+						<ul class="dhh">
+							<li>
+								<a href="#" target="_blank">县委领导</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">县人大领导</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">政府领导</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">县政协领导</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">统计信息</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">机构职能</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">法规文件</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">规划计划</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">人事信息</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">重大项目</a>
+							</li>
+						</ul>
+					</div>
+					<div class="ksdh1">
+						<div class="title">
+							<span>
+							<a href="#" target="_blank">阳光政务</a>
+							</span>
+						</div>
+						<ul class="dhh">
+							<li>
+								<a href="#" target="_blank">行政权利清单</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">部门责任清单</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">市场准入清单</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">行政事业性收费清单</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li class="links"><a href="#" target="_blank">版权保护</a>|
+					<a href="#" target="_blank">网络地图</a>|
+					<a href="#" target="_blank">联系我们</a>|
+					<a href="#" target="_blank">隐私申明</a>|
+				</li>
+					<span class="jiucuo">
+						<img src="src/jiucuo.png">
+					</span>
+					<p style="font-size: 10px;">Copyrigh 2015 www.jxyongfeng.gov.cn All Rights Reserved</p>
+					<p style="font-size: 10px;">永丰县人民政府主办　永丰县政府办公室承办　赣ICP备12000893号-1</p>
+					<p style="font-size: 10px;">管理员邮箱：yfxxzx@jian.gov.cn　电话(传真)：(0796)2526813　技术支持：
+						<a href="#" target="_blank">维网科技</a>　
+						<a href="#" target="_blank">安全检测</a>
+					</p>
+					<span class="bszs">
+						<img src="src/red.png">
+					</span>
+				</li>
+			</ul>
+			
+			
+		</div>
+	</body>
+</html>
